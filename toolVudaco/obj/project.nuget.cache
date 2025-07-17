@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/aAWUuyT4rKMoS2kyd1Xvue4+Dto7PryooytJcWFM6AY0KnkmQH10w8+caVeIcC3KVCR3jC6nRT45095vUHsog==",
+  "dgSpecHash": "7MWeWdAE0MxY7fwvNZCiw20jvfuBgXFXni4W70mr1/bZkptZsV4y6c7yEU/4Ro0ua31/u7bwLrRW5aywxQ9RXQ==",
   "success": true,
   "projectFilePath": "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\dg.advanceddatagridview\\1.2.30115.18\\dg.advanceddatagridview.1.2.30115.18.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.reporting.winforms.v11\\1.0.0\\microsoft.reporting.winforms.v11.1.0.0.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.reporting.winforms.v11\\1.0.0\\microsoft.reporting.winforms.v11.1.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.7\\system.configuration.configurationmanager.9.0.7.nupkg.sha512"
   ],
   "logs": []
 }

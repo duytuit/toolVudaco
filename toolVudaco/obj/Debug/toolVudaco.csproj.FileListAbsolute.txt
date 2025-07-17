@@ -8,7 +8,6 @@ D:\dev_web\toolVudaco\toolVudaco\bin\Debug\Microsoft.ReportViewer.Common.dll
 D:\dev_web\toolVudaco\toolVudaco\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
 D:\dev_web\toolVudaco\toolVudaco\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
 D:\dev_web\toolVudaco\toolVudaco\bin\Debug\Microsoft.SqlServer.Types.dll
-D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.AssemblyReference.cache
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.bangDieuKhien.resources
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.NCC.congNoChiTiet.resources
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.NCC.nhaCungCap.resources
@@ -18,3 +17,6 @@ D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.CoreCompileInputs.c
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.CopyComplete
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.exe
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.pdb
+D:\dev_web\toolVudaco\toolVudaco\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.AssemblyReference.cache
+D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.Shares.MultiColumnComboBox.resources

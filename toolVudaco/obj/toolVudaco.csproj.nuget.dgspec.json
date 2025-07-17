@@ -45,6 +45,10 @@
             "Microsoft.Reporting.WinForms.v11": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.7, )"
             }
           }
         }

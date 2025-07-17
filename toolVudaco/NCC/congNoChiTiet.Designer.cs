@@ -33,10 +33,10 @@ namespace toolVudaco.NCC
             this.panelTop = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.advancedDataGridView1 = new Zuby.ADGV.AdvancedDataGridView();
             this.panelContent = new System.Windows.Forms.Panel();
+            this.multiColumnComboBox1 = new toolVudaco.Shares.MultiColumnComboBox();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.advancedDataGridView1)).BeginInit();
             this.panelContent.SuspendLayout();
@@ -44,9 +44,9 @@ namespace toolVudaco.NCC
             // 
             // panelTop
             // 
+            this.panelTop.Controls.Add(this.multiColumnComboBox1);
             this.panelTop.Controls.Add(this.button1);
             this.panelTop.Controls.Add(this.dateTimePicker1);
-            this.panelTop.Controls.Add(this.comboBox1);
             this.panelTop.Controls.Add(this.dateTimePicker2);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
@@ -63,27 +63,23 @@ namespace toolVudaco.NCC
             this.button1.TabIndex = 0;
             this.button1.Text = "Xem";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CustomFormat = "dd-MM-yyyy";
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(45, 16);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker1.TabIndex = 1;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(482, 16);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(334, 28);
-            this.comboBox1.TabIndex = 3;
-            // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.CustomFormat = "dd-MM-yyyy";
             this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker2.Location = new System.Drawing.Point(262, 16);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 26);
@@ -113,6 +109,13 @@ namespace toolVudaco.NCC
             this.panelContent.Size = new System.Drawing.Size(1306, 592);
             this.panelContent.TabIndex = 6;
             // 
+            // multiColumnComboBox1
+            // 
+            this.multiColumnComboBox1.Location = new System.Drawing.Point(492, 16);
+            this.multiColumnComboBox1.Name = "multiColumnComboBox1";
+            this.multiColumnComboBox1.Size = new System.Drawing.Size(319, 322);
+            this.multiColumnComboBox1.TabIndex = 4;
+            // 
             // congNoChiTiet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,6 +124,7 @@ namespace toolVudaco.NCC
             this.Controls.Add(this.panelContent);
             this.Name = "congNoChiTiet";
             this.Size = new System.Drawing.Size(1306, 592);
+            this.Load += new System.EventHandler(this.congNoChiTiet_Load);
             this.panelTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.advancedDataGridView1)).EndInit();
             this.panelContent.ResumeLayout(false);
@@ -134,9 +138,9 @@ namespace toolVudaco.NCC
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private Zuby.ADGV.AdvancedDataGridView advancedDataGridView1;
         private System.Windows.Forms.Panel panelContent;
+        private Shares.MultiColumnComboBox multiColumnComboBox1;
     }
 }

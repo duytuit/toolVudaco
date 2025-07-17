@@ -20,6 +20,8 @@ namespace toolVudaco
 
         private void button2_Click(object sender, EventArgs e)
         {
+           // DataAccess ac = new DataAccess();
+           // var dt = ac.RunQuery("select * from DanhSachNhaCungCap");
             // Kiểm tra xem Form2 đã mở chưa
             nhaCungCap existingForm = Application.OpenForms.OfType<nhaCungCap>().FirstOrDefault();
 

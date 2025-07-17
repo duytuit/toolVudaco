@@ -42,6 +42,21 @@
           "lib/Microsoft.ReportViewer.WinForms.DLL": {},
           "lib/Microsoft.SqlServer.Types.dll": {}
         }
+      },
+      "System.Configuration.ConfigurationManager/9.0.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
@@ -84,6 +99,21 @@
           "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
           "lib/Microsoft.ReportViewer.WinForms.DLL": {},
           "lib/Microsoft.SqlServer.Types.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/9.0.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
         }
       }
     },
@@ -128,6 +158,21 @@
           "lib/Microsoft.ReportViewer.WinForms.DLL": {},
           "lib/Microsoft.SqlServer.Types.dll": {}
         }
+      },
+      "System.Configuration.ConfigurationManager/9.0.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
@@ -170,6 +215,21 @@
           "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
           "lib/Microsoft.ReportViewer.WinForms.DLL": {},
           "lib/Microsoft.SqlServer.Types.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/9.0.7": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
         }
       }
     }
@@ -239,13 +299,42 @@
         "microsoft.reporting.winforms.v11.1.0.0.nupkg.sha512",
         "microsoft.reporting.winforms.v11.nuspec"
       ]
+    },
+    "System.Configuration.ConfigurationManager/9.0.7": {
+      "sha512": "T8Q/AkI7hL82+O/ARCAKrVliQOPtMtYuv+4SFVhkXVo8dwPll4y3Ls0T1RIbuspNYxC1uL1zfa3sckOveVNlSg==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/9.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Configuration.ConfigurationManager.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets",
+        "lib/net462/System.Configuration.ConfigurationManager.dll",
+        "lib/net462/System.Configuration.ConfigurationManager.xml",
+        "lib/net8.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net8.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net9.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net9.0/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.9.0.7.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "DG.AdvancedDataGridView >= 1.2.30115.18",
       "EntityFramework >= 6.2.0",
-      "Microsoft.Reporting.WinForms.v11 >= 1.0.0"
+      "Microsoft.Reporting.WinForms.v11 >= 1.0.0",
+      "System.Configuration.ConfigurationManager >= 9.0.7"
     ]
   },
   "packageFolders": {
@@ -292,6 +381,10 @@
           "Microsoft.Reporting.WinForms.v11": {
             "target": "Package",
             "version": "[1.0.0, )"
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[9.0.7, )"
           }
         }
       }

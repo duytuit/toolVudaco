@@ -22,5 +22,18 @@ namespace toolVudaco.NCC
         {
 
         }
+
+        private void congNoChiTiet_Load(object sender, EventArgs e)
+        {
+             DataAccess ac = new DataAccess();
+             var dt = ac.RunQuery("SELECT MaNhaCungCap, TenNhaCungCap FROM DanhSachNhaCungCap");
+             multiColumnComboBox1.PlaceholderText = "Tìm mã hoặc tên ncc...";
+             multiColumnComboBox1.SetData(dt);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(multiColumnComboBox1.SelectedValue);
+        }
     }
 }
