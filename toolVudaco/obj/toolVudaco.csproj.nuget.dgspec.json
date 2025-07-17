@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj": {}
+  },
+  "projects": {
+    "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj",
+        "projectName": "toolVudaco",
+        "projectPath": "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_web\\toolVudaco\\toolVudaco\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "DG.AdvancedDataGridView": {
+              "target": "Package",
+              "version": "[1.2.30115.18, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.Reporting.WinForms.v11": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

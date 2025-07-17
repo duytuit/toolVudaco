@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="704c3db2ed89496996f28124db87effb" Name="Diagram1">
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangDieuXe" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangDieuXe_ChiTiet" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangHoanUng" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangKePhiChiHo1" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangLietKeCP" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangLietKeCP_BoSung" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangLietKeCP_ChiTiet" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangPhiDiDuong" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangPhiDiDuong_ChiKhac" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangPhiDiDuong_ChiKhac_Temp" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangPhiDiDuong_Temp" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangPhoiNangHa" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangPhoiNangHa_ChiTiet" Width="1.5" PointX="6.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangTheoDoiNghiPhepNam" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.CacLoaiPhiChiHo" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.ChiKhac_Web_Temp" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhMuc_CPHQ" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhMuc_PhiChiHo" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhMucNganHang" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhMucQuy" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhMucThu" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhSachChi" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhSachChiPhiHaiQuan" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhSachKhachHang" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhSachNhaCungCap" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhSachTaiKhoan" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DanhSachXe" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.DauKy_Quy" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.FileDebit" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.FileDebit_KoHoaDon_KH" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.FileDebit_KoHoaDon_NCC" Width="1.5" PointX="14.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.FileDebitChiTiet" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.FileGia" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.FileGiaChiTiet" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.KhaiBao_TSCD" Width="1.5" PointX="16.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.NhanVien" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.NhanVien_PhuCap" Width="1.5" PointX="10.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhanBo_KhauHao" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhanBo_KhauHao_DSXe" Width="1.5" PointX="2.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhanQuyen" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuBan" Width="1.5" PointX="4.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuBanCT" Width="1.5" PointX="6.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_Con" Width="1.5" PointX="18.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_Con_CT" Width="1.5" PointX="16.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_CT" Width="1.5" PointX="18.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_LaiXe" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_LaiXe_CT" Width="1.5" PointX="20.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_NCC" Width="1.5" PointX="20.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_NCC_CT" Width="1.5" PointX="12.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_NganHang" Width="1.5" PointX="20.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_NoiBo" Width="1.5" PointX="0.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuChi_NoiBo_CT" Width="1.5" PointX="8.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuCuoc" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuMua" Width="1.5" PointX="2.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuMuaCT" Width="1.5" PointX="4.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuTamThu" Width="1.5" PointX="22.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu" Width="1.5" PointX="22.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu_CT" Width="1.5" PointX="22.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu_GiaoNhan" Width="1.5" PointX="22.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu_GiaoNhan_CT" Width="1.5" PointX="18.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu_LaiXe" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu_LaiXe_CT" Width="1.5" PointX="24.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu_NoiBo" Width="1.5" PointX="24.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhieuThu_NoiBo_CT" Width="1.5" PointX="14.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.PhongBan" Width="1.5" PointX="24.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.Table_1" Width="1.5" PointX="24.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.ThongTinFile" Width="1.5" PointX="24.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.ThongTinFile_NguoiGiaoNhan" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangDieuXe_Temp" Width="1.5" PointX="0.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangDieuXe22" Width="1.5" PointX="2.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="vua45987_vudacoModel.BangPhiDiDuong22" Width="1.5" PointX="26.75" PointY="3.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
