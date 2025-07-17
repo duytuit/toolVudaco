@@ -20,3 +20,25 @@ D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.pdb
 D:\dev_web\toolVudaco\toolVudaco\bin\Debug\System.Configuration.ConfigurationManager.dll
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.AssemblyReference.cache
 D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.Shares.MultiColumnComboBox.resources
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\toolVudaco.exe.config
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\toolVudaco.exe
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\toolVudaco.pdb
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\AdvancedDataGridView.dll
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\EntityFramework.dll
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\Microsoft.SqlServer.Types.dll
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\bin\Debug\System.Configuration.ConfigurationManager.dll
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.bangDieuKhien.resources
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.NCC.congNoChiTiet.resources
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.NCC.nhaCungCap.resources
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.Properties.Resources.resources
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.Shares.MultiColumnComboBox.resources
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.CopyComplete
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.exe
+\\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.pdb

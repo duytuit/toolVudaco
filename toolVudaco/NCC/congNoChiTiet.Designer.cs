@@ -34,17 +34,17 @@ namespace toolVudaco.NCC
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.advancedDataGridView1 = new Zuby.ADGV.AdvancedDataGridView();
             this.panelContent = new System.Windows.Forms.Panel();
-            this.multiColumnComboBox1 = new toolVudaco.Shares.MultiColumnComboBox();
+            this.advancedDataGridView1 = new Zuby.ADGV.AdvancedDataGridView();
+            this.comboGridView1 = new toolVudaco.Shares.ComboGridView();
             this.panelTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.advancedDataGridView1)).BeginInit();
             this.panelContent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.advancedDataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTop
             // 
-            this.panelTop.Controls.Add(this.multiColumnComboBox1);
+            this.panelTop.Controls.Add(this.comboGridView1);
             this.panelTop.Controls.Add(this.button1);
             this.panelTop.Controls.Add(this.dateTimePicker1);
             this.panelTop.Controls.Add(this.dateTimePicker2);
@@ -59,7 +59,7 @@ namespace toolVudaco.NCC
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.button1.Location = new System.Drawing.Point(833, 14);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 32);
+            this.button1.Size = new System.Drawing.Size(101, 30);
             this.button1.TabIndex = 0;
             this.button1.Text = "Xem";
             this.button1.UseVisualStyleBackColor = true;
@@ -85,6 +85,15 @@ namespace toolVudaco.NCC
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker2.TabIndex = 2;
             // 
+            // panelContent
+            // 
+            this.panelContent.Controls.Add(this.advancedDataGridView1);
+            this.panelContent.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelContent.Location = new System.Drawing.Point(0, 60);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(1306, 532);
+            this.panelContent.TabIndex = 6;
+            // 
             // advancedDataGridView1
             // 
             this.advancedDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -95,26 +104,22 @@ namespace toolVudaco.NCC
             this.advancedDataGridView1.MaxFilterButtonImageHeight = 23;
             this.advancedDataGridView1.Name = "advancedDataGridView1";
             this.advancedDataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.advancedDataGridView1.Size = new System.Drawing.Size(1306, 592);
+            this.advancedDataGridView1.Size = new System.Drawing.Size(1306, 532);
             this.advancedDataGridView1.SortStringChangedInvokeBeforeDatasourceUpdate = true;
             this.advancedDataGridView1.TabIndex = 0;
             this.advancedDataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.advancedDataGridView1_CellContentClick);
             // 
-            // panelContent
+            // comboGridView1
             // 
-            this.panelContent.Controls.Add(this.advancedDataGridView1);
-            this.panelContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContent.Location = new System.Drawing.Point(0, 0);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(1306, 592);
-            this.panelContent.TabIndex = 6;
-            // 
-            // multiColumnComboBox1
-            // 
-            this.multiColumnComboBox1.Location = new System.Drawing.Point(492, 16);
-            this.multiColumnComboBox1.Name = "multiColumnComboBox1";
-            this.multiColumnComboBox1.Size = new System.Drawing.Size(319, 322);
-            this.multiColumnComboBox1.TabIndex = 4;
+            this.comboGridView1.DisplayMember = null;
+            this.comboGridView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboGridView1.Location = new System.Drawing.Point(484, 16);
+            this.comboGridView1.Margin = new System.Windows.Forms.Padding(6);
+            this.comboGridView1.Name = "comboGridView1";
+            this.comboGridView1.PlaceholderText = "Tìm kiếm...";
+            this.comboGridView1.Size = new System.Drawing.Size(340, 269);
+            this.comboGridView1.TabIndex = 5;
+            this.comboGridView1.ValueMember = null;
             // 
             // congNoChiTiet
             // 
@@ -126,8 +131,8 @@ namespace toolVudaco.NCC
             this.Size = new System.Drawing.Size(1306, 592);
             this.Load += new System.EventHandler(this.congNoChiTiet_Load);
             this.panelTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.advancedDataGridView1)).EndInit();
             this.panelContent.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.advancedDataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -139,8 +144,8 @@ namespace toolVudaco.NCC
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private Zuby.ADGV.AdvancedDataGridView advancedDataGridView1;
         private System.Windows.Forms.Panel panelContent;
-        private Shares.MultiColumnComboBox multiColumnComboBox1;
+        private Shares.ComboGridView comboGridView1;
+        private Zuby.ADGV.AdvancedDataGridView advancedDataGridView1;
     }
 }
