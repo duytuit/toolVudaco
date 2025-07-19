@@ -313,6 +313,18 @@
     <Compile Include="Table_1.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="TaiSanVaPhanBo\TaiSanCoDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaiSanVaPhanBo\TaiSanCoDinh.Designer.cs">
+      <DependentUpon>TaiSanCoDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaiSanVaPhanBo\TaiSanVaPhanBo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaiSanVaPhanBo\TaiSanVaPhanBo.Designer.cs">
+      <DependentUpon>TaiSanVaPhanBo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThongTinFile.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -339,6 +351,12 @@
     </Compile>
     <EmbeddedResource Include="Shares\MultiColumnComboBox.resx">
       <DependentUpon>MultiColumnComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiSanVaPhanBo\TaiSanCoDinh.resx">
+      <DependentUpon>TaiSanCoDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiSanVaPhanBo\TaiSanVaPhanBo.resx">
+      <DependentUpon>TaiSanVaPhanBo.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -394,6 +412,8 @@
     <Folder Include="KH\Services\" />
     <Folder Include="NCC\Report\" />
     <Folder Include="NCC\Services\" />
+    <Folder Include="TaiSanVaPhanBo\report\" />
+    <Folder Include="TaiSanVaPhanBo\services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

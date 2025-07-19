@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\untitled folder 2\\toolVudaco\\toolVudaco\\toolVudaco.csproj": {}
+    "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\untitled folder 2\\toolVudaco\\toolVudaco\\toolVudaco.csproj": {
+    "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\untitled folder 2\\toolVudaco\\toolVudaco\\toolVudaco.csproj",
+        "projectUniqueName": "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj",
         "projectName": "toolVudaco",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\untitled folder 2\\toolVudaco\\toolVudaco\\toolVudaco.csproj",
-        "packagesPath": "C:\\Users\\duytu\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\untitled folder 2\\toolVudaco\\toolVudaco\\obj\\",
+        "projectPath": "D:\\dev_web\\toolVudaco\\toolVudaco\\toolVudaco.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\dev_web\\toolVudaco\\toolVudaco\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\duytu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

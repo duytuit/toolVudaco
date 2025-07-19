@@ -28,6 +28,8 @@ namespace toolVudaco.NCC
             advancedDataGridView1.DataSource = bs;
             advancedDataGridView1.AutoGenerateColumns = true;
             advancedDataGridView1.FilterAndSortEnabled = true;
+            advancedDataGridView1.Dock = DockStyle.Fill;
+            advancedDataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             advancedDataGridView1.SortStringChanged += AdvancedDataGridView1_SortStringChanged;
             advancedDataGridView1.FilterStringChanged += AdvancedDataGridView1_FilterStringChanged;
 
