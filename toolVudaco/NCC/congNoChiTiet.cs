@@ -16,6 +16,7 @@ namespace toolVudaco.NCC
         private DataTable fullData;
         private int currentPage = 1;
         private int pageSize = 10;
+        DataAccess ac = new DataAccess();
         public congNoChiTiet()
         {
             InitializeComponent();
@@ -76,6 +77,8 @@ namespace toolVudaco.NCC
             dt.Columns.Add("Biển số xe");
             dt.Columns.Add("Số cont");
 
+            var ncc = ac.RunQuery("SELECT MaNhaCungCap, TenNhaCungCap FROM DanhSachNhaCungCap");
+
             // Thêm dữ liệu mẫu
             for (int i = 1; i <= 100; i++)
             {
@@ -93,7 +96,7 @@ namespace toolVudaco.NCC
 
         private void congNoChiTiet_Load(object sender, EventArgs e)
         {
-            DataAccess ac = new DataAccess();
+           
             var dt = ac.RunQuery("SELECT MaNhaCungCap, TenNhaCungCap FROM DanhSachNhaCungCap");
 
             comboGridView1.PlaceholderText = "Tìm mã hoặc tên nhà cung cấp...";
@@ -102,14 +105,15 @@ namespace toolVudaco.NCC
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (comboGridView1.SelectedValue != null)
-            {
-                MessageBox.Show($"Mã: {comboGridView1.SelectedValue} - Tên: {comboGridView1.SelectedText}");
-            }
-            else
-            {
-                MessageBox.Show("Chưa chọn dòng nào.");
-            }
+            GetSampleTable();
+            //if (comboGridView1.SelectedValue != null)
+            //{
+            //    MessageBox.Show($"Mã: {comboGridView1.SelectedValue} - Tên: {comboGridView1.SelectedText}");
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Chưa chọn dòng nào.");
+            //}
         }
 
     }

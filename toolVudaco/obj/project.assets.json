@@ -20,12 +20,20 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
         }
       },
       "Microsoft.Reporting.WinForms.v11/1.0.0": {
@@ -49,184 +57,14 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "build": {
-          "buildTransitive/net462/_._": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win": {
-      "DG.AdvancedDataGridView/1.2.30115.18": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Web.Extensions"
-        ],
-        "compile": {
-          "lib/net40/AdvancedDataGridView.dll": {}
-        },
-        "runtime": {
-          "lib/net40/AdvancedDataGridView.dll": {}
-        }
-      },
-      "EntityFramework/6.2.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        }
-      },
-      "Microsoft.Reporting.WinForms.v11/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
-          "lib/Microsoft.ReportViewer.WinForms.DLL": {},
-          "lib/Microsoft.SqlServer.Types.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
-          "lib/Microsoft.ReportViewer.WinForms.DLL": {},
-          "lib/Microsoft.SqlServer.Types.dll": {}
-        }
-      },
-      "System.Configuration.ConfigurationManager/9.0.7": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Configuration"
-        ],
-        "compile": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "runtime": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "build": {
-          "buildTransitive/net462/_._": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win-x64": {
-      "DG.AdvancedDataGridView/1.2.30115.18": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Web.Extensions"
-        ],
-        "compile": {
-          "lib/net40/AdvancedDataGridView.dll": {}
-        },
-        "runtime": {
-          "lib/net40/AdvancedDataGridView.dll": {}
-        }
-      },
-      "EntityFramework/6.2.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        }
-      },
-      "Microsoft.Reporting.WinForms.v11/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
-          "lib/Microsoft.ReportViewer.WinForms.DLL": {},
-          "lib/Microsoft.SqlServer.Types.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
-          "lib/Microsoft.ReportViewer.WinForms.DLL": {},
-          "lib/Microsoft.SqlServer.Types.dll": {}
-        }
-      },
-      "System.Configuration.ConfigurationManager/9.0.7": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Configuration"
-        ],
-        "compile": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "runtime": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "build": {
-          "buildTransitive/net462/_._": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win-x86": {
-      "DG.AdvancedDataGridView/1.2.30115.18": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Web.Extensions"
-        ],
-        "compile": {
-          "lib/net40/AdvancedDataGridView.dll": {}
-        },
-        "runtime": {
-          "lib/net40/AdvancedDataGridView.dll": {}
-        }
-      },
-      "EntityFramework/6.2.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        }
-      },
-      "Microsoft.Reporting.WinForms.v11/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
-          "lib/Microsoft.ReportViewer.WinForms.DLL": {},
-          "lib/Microsoft.SqlServer.Types.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.ReportViewer.Common.dll": {},
-          "lib/Microsoft.ReportViewer.ProcessingObjectModel.DLL": {},
-          "lib/Microsoft.ReportViewer.WinForms.DLL": {},
-          "lib/Microsoft.SqlServer.Types.dll": {}
-        }
-      },
-      "System.Configuration.ConfigurationManager/9.0.7": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Configuration"
-        ],
-        "compile": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
-        },
-        "runtime": {
-          "lib/net462/System.Configuration.ConfigurationManager.dll": {}
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net462/_._": {}
@@ -365,6 +203,11 @@
         "net472": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -387,17 +230,6 @@
             "version": "[9.0.7, )"
           }
         }
-      }
-    },
-    "runtimes": {
-      "win": {
-        "#import": []
-      },
-      "win-x64": {
-        "#import": []
-      },
-      "win-x86": {
-        "#import": []
       }
     }
   }

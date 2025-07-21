@@ -42,3 +42,5 @@ D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.Shares.MultiColumnComboBox
 \\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.csproj.CopyComplete
 \\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.exe
 \\Mac\Home\Desktop\untitled folder 2\toolVudaco\toolVudaco\obj\Debug\toolVudaco.pdb
+D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.TaiSan.TaiSanCoDinh.resources
+D:\dev_web\toolVudaco\toolVudaco\obj\Debug\toolVudaco.TaiSan.TaiSanVaPhanBo.resources
